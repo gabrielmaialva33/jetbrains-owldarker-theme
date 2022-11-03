@@ -4,17 +4,17 @@
 
 Go to `Plugin Marketplace`, and search `Owl Darker`, click `Install`.
 
-![Installing](https://github.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-plugin-install.png)
+![Installing](https://raw.githubusercontent.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-plugin-install.png)
 
 #### Setup
 
 Go to `Preferences | Appearance & Behavior | Appearance`, select `OwlDarker` from the dropdown menu.
 
-![Setup Appearance](https://github.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-setup-appearance.png)
+![Setup Appearance](https://raw.githubusercontent.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-setup-appearance.png)
 
 Go to `Preferences | Editor | Color Scheme`, select `OwlDarker` from the dropdown menu.
 
-![Setup Color Scheme](https://github.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-setup-scheme.png)
+![Setup Color Scheme](https://raw.githubusercontent.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-setup-scheme.png)
 
 #### Caveat
 
