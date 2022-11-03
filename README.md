@@ -1,9 +1,9 @@
 <!-- Plugin description -->
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/gabrielmaialva33/jetbrains-owldarker-theme/master/.github/assets/logo.svg" alt="Omni OWL Logo" width="200">
+  <img src="https://raw.githubusercontent.com/gabrielmaialva33/jetbrains-owldarker-theme/master/.github/assets/logo.svg" alt="OWL Logo" width="200">
   <br>
-  Omni Owl for <a href="https://www.jetbrains.com">JetBrains</a>
+  Owl Darker Theme for <a href="https://www.jetbrains.com">JetBrains</a>
   <br>
 </h1>
 
