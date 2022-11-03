@@ -55,7 +55,7 @@ tasks {
               <p>
                 <img
                   alt="Screenshot"
-                  src="https://github.com/gabrielmaialva33/jetbrains-owldarker-theme/master/screenshot.png"
+                  src="https://raw.githubusercontent.com/gabrielmaialva33/jetbrains-owldarker-theme/master/screenshot.png"
                   width="600"
                 />
               </p>
