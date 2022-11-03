@@ -10,8 +10,8 @@
     "primaryBackground": "#13111B",
     "secondaryBackground": "#13111B",
     "hoverBackground": "#15121E",
-    "selectionBackground": "#6272a4",
-    "selectionInactiveBackground": "#4e5a82",
+    "selectionBackground": "#41414D60",
+    "selectionInactiveBackground": "#44475A75",
     "borderColor": "#15121E",
     "separatorColor": "#15121E"
   },
