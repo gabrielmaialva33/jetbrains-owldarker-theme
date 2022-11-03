@@ -42,13 +42,13 @@ object OwlDarkerNotification {
         </div>
     """.trimIndent()
 
-    private const val notificationGroupId = "OwlDarker Theme"
+    private const val notificationGroupId = "Owl Darker Theme"
 
     @JvmField
     val notificationIcon = IconLoader.getIcon("/icons/owldarker-logo.svg", javaClass)
 
     fun notifyReleaseNote(project: Project) {
-        val title = "OwlDarker Theme updated to v${OwlDarkerMeta.currentVersion}"
+        val title = "Owl Darker Theme updated to v${OwlDarkerMeta.currentVersion}"
         val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
             .createNotification(title, releaseNote, NotificationType.INFORMATION)
         notification.icon = notificationIcon
@@ -56,7 +56,7 @@ object OwlDarkerNotification {
     }
 
     fun notifyFirstlyDownloaded(project: Project) {
-        val title = "OwlDarker Theme is installed"
+        val title = "Owl Darker Theme is installed"
         val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
             .createNotification(title, welcomeMessage, NotificationType.INFORMATION)
         notification.icon = notificationIcon

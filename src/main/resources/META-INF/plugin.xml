@@ -1,13 +1,13 @@
 <idea-plugin>
     <id>com.mrootx.idea</id>
-    <name>OwlDarker Theme</name>
+    <name>Owl Darker Theme</name>
     <vendor email="gabrielmaialva33@gmail.com" url="https://github.com/gabrielmaialva33/jetbrains-owldarker-theme">OwlDarker Official</vendor>
     <depends>com.intellij.modules.lang</depends>
     <idea-version since-build="221"/>
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.owldarker.jetbrains.settings.OwlDarkerSettings"/>
         <postStartupActivity implementation="com.owldarker.jetbrains.activities.OwlDarkerStartupActivity"/>
-        <notificationGroup displayType="STICKY_BALLOON" id="OwlDarker Theme" isLogByDefault="true"/>
+        <notificationGroup displayType="STICKY_BALLOON" id="Owl Darker Theme" isLogByDefault="true"/>
         <themeProvider id="f0323673-8fd6-421a-a00c-0679dafa29c1" path="/themes/OwlDarker.theme.json"/>
         <themeProvider id="6590e784-ed93-4edf-802d-904e84af1446" path="/themes/OwlDarkerColorful.theme.json"/>
     </extensions>

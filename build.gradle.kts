@@ -50,7 +50,7 @@ tasks {
 
         val description = """
             <div>
-              <p>OwlDarker Theme for JetBrains</p>
+              <p>Owl Darker Theme for JetBrains</p>
               <br />
               <p>
                 <img

@@ -1,9 +1,9 @@
-<scheme name="OwlDarker Colorful" version="142" parent_scheme="Darcula">
+<scheme name="Owl Darker Colorful" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="48b764" />
     <option name="ANNOTATIONS_COLOR" value="282a35" />
-    <option name="CARET_COLOR" value="cccccc" />
-    <option name="CARET_ROW_COLOR" value="44475a" />
+    <option name="CARET_COLOR" value="e1e1e6" />
+    <option name="CARET_ROW_COLOR" value="252131" />
     <option name="CONSOLE_BACKGROUND_KEY" value="15121E" />
     <option name="DELETED_LINES_COLOR" value="cd4644" />
     <option name="DOCUMENTATION_COLOR" value="13111B" />
@@ -39,7 +39,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="a8b0e2" />
     <option name="SELECTED_INDENT_GUIDE" value="a8b0e2" />
     <option name="SELECTED_TEARLINE_COLOR" value="a8b0e2" />
-    <option name="SELECTION_BACKGROUND" value="666b87" />
+    <option name="SELECTION_BACKGROUND" value="41414d" />
     <option name="SEPARATOR_ABOVE_COLOR" value="6b7090" />
     <option name="SEPARATOR_BELOW_COLOR" value="6b7090" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="bd93f9" />
