@@ -1,4 +1,4 @@
-<scheme name="OwlDarker" version="142" parent_scheme="OwlDarker">
+<scheme name="OwlDarker" version="142" parent_scheme="Darcula">
   <colors>
     <option name="ADDED_LINES_COLOR" value="48b764" />
     <option name="ANNOTATIONS_COLOR" value="282a35" />

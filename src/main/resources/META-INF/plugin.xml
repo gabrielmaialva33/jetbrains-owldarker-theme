@@ -8,7 +8,7 @@
         <applicationService serviceImplementation="com.owldarker.jetbrains.settings.OwlDarkerSettings"/>
         <postStartupActivity implementation="com.owldarker.jetbrains.activities.OwlDarkerStartupActivity"/>
         <notificationGroup displayType="STICKY_BALLOON" id="OwlDarker Theme" isLogByDefault="true"/>
-        <themeProvider id="371dce76-a3c5-4429-91af-41cf86094744" path="/themes/OwlDarker.theme.json"/>
-        <themeProvider id="ee2824b3-c1d9-44fa-8b64-de6fe5dd8e37" path="/themes/OwlDarkerColorful.theme.json"/>
+        <themeProvider id="f0323673-8fd6-421a-a00c-0679dafa29c1" path="/themes/OwlDarker.theme.json"/>
+        <themeProvider id="6590e784-ed93-4edf-802d-904e84af1446" path="/themes/OwlDarkerColorful.theme.json"/>
     </extensions>
 </idea-plugin>
