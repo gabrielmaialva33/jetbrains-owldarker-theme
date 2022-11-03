@@ -2,7 +2,7 @@
 
 #### Installation
 
-Go to `Plugin Marketplace`, and search `OwlDarker`, click `Install`.
+Go to `Plugin Marketplace`, and search `Owl Darker`, click `Install`.
 
 ![Installing](https://github.com/gabrielmaialva33/jetbrains-owldarker-theme/master/docs/screenshots/owl-plugin-install.png)
 
