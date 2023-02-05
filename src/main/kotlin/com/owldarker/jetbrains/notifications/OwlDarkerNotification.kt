@@ -50,7 +50,7 @@ object OwlDarkerNotification {
     fun notifyReleaseNote(project: Project) {
         val title = "Owl Darker Theme updated to v${OwlDarkerMeta.currentVersion}"
         val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
-            .createNotification(title, releaseNote, NotificationType.INFORMATION)
+                .createNotification(title, releaseNote, NotificationType.INFORMATION)
         notification.icon = notificationIcon
         notification.notify(project)
     }
@@ -58,7 +58,7 @@ object OwlDarkerNotification {
     fun notifyFirstlyDownloaded(project: Project) {
         val title = "Owl Darker Theme is installed"
         val notification = NotificationGroupManager.getInstance().getNotificationGroup(notificationGroupId)
-            .createNotification(title, welcomeMessage, NotificationType.INFORMATION)
+                .createNotification(title, welcomeMessage, NotificationType.INFORMATION)
         notification.icon = notificationIcon
         notification.notify(project)
     }

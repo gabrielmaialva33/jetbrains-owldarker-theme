@@ -6,9 +6,9 @@ plugins {
     // Java support
     id("java")
     // Kotlin support
-    id("org.jetbrains.kotlin.jvm") version "1.7.10"
+    id("org.jetbrains.kotlin.jvm") version "1.8.10"
     // Gradle IntelliJ Plugin
-    id("org.jetbrains.intellij") version "1.9.0"
+    id("org.jetbrains.intellij") version "1.12.0"
     // Gradle Changelog Plugin
     id("org.jetbrains.changelog") version "1.3.1"
 }
@@ -79,16 +79,16 @@ tasks {
 
     runPluginVerifier {
         ideVersions.set(
-            properties("pluginVerifierIdeVersions")
-                .split(",")
-                .map(String::trim)
-                .filter(String::isNotEmpty)
+                properties("pluginVerifierIdeVersions")
+                        .split(",")
+                        .map(String::trim)
+                        .filter(String::isNotEmpty)
         )
         failureLevel.set(
-            listOf(
-                RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS,
-                RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
-            )
+                listOf(
+                        RunPluginVerifierTask.FailureLevel.COMPATIBILITY_PROBLEMS,
+                        RunPluginVerifierTask.FailureLevel.INVALID_PLUGIN
+                )
         )
     }
 

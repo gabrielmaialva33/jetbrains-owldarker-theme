@@ -23,5 +23,7 @@ You'd better install the following IntelliJ IDEA plugins for debugging specific 
 
 ## Reference
 
-- For further how to develop and debug a theme UI plugin, please read this [document](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html).
-- For the usage of how to build a plugin with Gradle, you may check out this [project](https://github.com/JetBrains/gradle-intellij-plugin) .
+- For further how to develop and debug a theme UI plugin, please read
+  this [document](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_intro.html).
+- For the usage of how to build a plugin with Gradle, you may check out
+  this [project](https://github.com/JetBrains/gradle-intellij-plugin) .

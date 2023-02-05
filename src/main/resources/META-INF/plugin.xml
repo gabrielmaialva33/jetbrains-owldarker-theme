@@ -1,7 +1,9 @@
 <idea-plugin>
     <id>com.mrootx.idea</id>
     <name>Owl Darker Theme</name>
-    <vendor email="gabrielmaialva33@gmail.com" url="https://github.com/gabrielmaialva33/jetbrains-owldarker-theme">OwlDarker Official</vendor>
+    <vendor email="gabrielmaialva33@gmail.com" url="https://github.com/gabrielmaialva33/jetbrains-owldarker-theme">
+        OwlDarker Official
+    </vendor>
     <depends>com.intellij.modules.lang</depends>
     <idea-version since-build="221"/>
     <extensions defaultExtensionNs="com.intellij">
