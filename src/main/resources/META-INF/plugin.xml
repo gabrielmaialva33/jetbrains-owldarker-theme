@@ -10,7 +10,12 @@
         <applicationService serviceImplementation="com.owldarker.jetbrains.settings.OwlDarkerSettings"/>
         <postStartupActivity implementation="com.owldarker.jetbrains.activities.OwlDarkerStartupActivity"/>
         <notificationGroup displayType="STICKY_BALLOON" id="Owl Darker Theme" isLogByDefault="true"/>
-        <themeProvider id="f0323673-8fd6-421a-a00c-0679dafa29c1" path="/themes/OwlDarker.theme.json"/>
-        <themeProvider id="6590e784-ed93-4edf-802d-904e84af1446" path="/themes/OwlDarkerColorful.theme.json"/>
+        <themeProvider id="com.owldarker.jetbrains.owldarker" path="/themes/OwlDarker.theme.json"/>
+        <themeProvider id="com.owldarker.jetbrains.owldarker.colorful" path="/themes/OwlDarkerColorful.theme.json"/>
+        <themeProvider id="com.owldarker.jetbrains.owldarker.mocha" path="themes/OwlDarkerMocha.theme.json"/>
     </extensions>
+    <applicationListeners>
+        <listener class="com.owldarker.jetbrains.listeners.OwlDarkerThemeChangeListener"
+                  topic="com.intellij.ide.ui.LafManagerListener"/>
+    </applicationListeners>
 </idea-plugin>
